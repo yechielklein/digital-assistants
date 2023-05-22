@@ -1,5 +1,9 @@
 import ProfileCard from "./ProfileCard";
 
+import AlexaImage from "./images/alexa.png";
+import CortanaImage from "./images/cortana.png";
+import SiriImage from "./images/siri.png";
+
 function App() {
 	return (
 		<div>
