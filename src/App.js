@@ -11,19 +11,19 @@ function App() {
 
 			<ProfileCard
 				name="Alexa"
-				imgSrc=""
+				imgSrc={AlexaImage}
 				tag="@alexa99"
 				description="I'll help you buy stuff on Amazon"
 			/>
 			<ProfileCard
 				name="Cortana"
-				imgSrc=""
+				imgSrc={CortanaImage}
 				tag="@Cortana12"
 				description="Personal assistant by Microsoft"
 			/>
 			<ProfileCard
 				name="Siri"
-				imgSrc=""
+				imgSrc={SiriImage}
 				tag="@siri44"
 				description="I don't get a lot of updates anymore"
 			/>
