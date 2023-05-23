@@ -1,10 +1,20 @@
 function ProfileCard({ name, imgSrc, tag, description }) {
 	return (
-		<div>
-			<img src={imgSrc} height={75} alt="logo" />
-			<h1>{name}</h1>
-			<p>{tag}</p>
-			<h4>{description}</h4>
+		<div className="card">
+			<div className="card-image">
+				<figure className="image is-1by1">
+					<img src={imgSrc} alt="logo" />
+				</figure>
+			</div>
+
+			<div className="card-content">
+				<div className="media-content">
+					<p className="title is-4">{name}</p>
+					<p className="subtitle is-6">{tag}</p>
+				</div>
+
+				<div className="content">{description}</div>
+			</div>
 		</div>
 	);
 };
